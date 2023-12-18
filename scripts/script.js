@@ -1,7 +1,5 @@
 //Комментарий для контрольного задания 12 (работа с ветками)
 
-//Еще один комментарий
-
 window.onload = function () {
     let inputs = document.getElementsByClassName('form__base-input');
 
