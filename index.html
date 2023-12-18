@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__container">
+        <a href="/" class="logo">
+            <img src="./images/logo.png" alt="Logo">
+        </a>
+    </div>
+</header>
+
+<section class="main">
+    <div class="container main__container">
+        <div class="main__form">
+            <h1 class="main__title" id="main-title">Get your free account</h1>
+            <p class="main__text">
+                Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+            </p>
+            <form class="form" id="form">
+                <label class="form__base-input-label">
+                    Full Name
+                    <input type="text" class="form__base-input" name="full-name-input" id="full-name-input">
+                </label>
+                <label class="form__base-input-label">
+                    Your username
+                    <input type="text" class="form__base-input" name="username-input" id="username-input">
+                </label>
+                <label class="form__base-input-label">
+                    E-mail
+                    <input type="email" class="form__base-input" name="email-input" id="email-input">
+                </label>
+                <label class="form__base-input-label">
+                    Password
+                    <input type="password" class="form__base-input" name="password-input" id="password-input">
+                </label>
+                <label class="form__base-input-label">
+                    Repeat Password
+                    <input type="password" class="form__base-input" name="repeat-password-input"
+                           id="repeat-password-input">
+                </label>
+                <label class="form__checkbox-label">
+                    <input type="checkbox" class="form__checkbox" name="checkbox" id="checkbox" checked>
+                    Agree to our Terms of Service and Privacy Statement
+                </label>
+                <button class="form__submit-button submit-button" type="submit" id="form-submit-button">
+                    Sign Up
+                </button>
+                <div class="form__is-already-account-button" id="is-already-account-button">
+                    Already have an account?
+                </div>
+            </form>
+        </div>
+        <div class="main__images">
+            <img src="./images/image-background.png" alt="The rocket taking off from notebook and three red ellipses on background" class="main__image-background">
+        </div>
+    </div>
+</section>
+
+<div class="popup" id="popup">
+    <div class="popup__modal">
+        <p class="popup__text">
+            На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию
+        </p>
+        <button type="button" class="popup__submit-button submit-button" id="popup-submit-button">ОК</button>
+    </div>
+</div>
+
+<script src="./scripts/script.js"></script>
+</body>
+</html>
