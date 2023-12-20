@@ -98,4 +98,6 @@ window.onload = function () {
         goToSignin();
     };
 
+    console.log("Message for 13 point of control-task-13");
+
 }
