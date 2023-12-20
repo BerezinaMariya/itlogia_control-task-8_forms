@@ -1,4 +1,5 @@
 //Комментарий для контрольного задания 12 (работа с ветками)
+//Комментарий для контрольного задания 13 (изменения в main script.js)
 
 window.onload = function () {
     let inputs = document.getElementsByClassName('form__base-input');
