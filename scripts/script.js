@@ -98,4 +98,6 @@ window.onload = function () {
         goToSignin();
     };
 
+    console.log("one more message for control-task-13");
+
 }
