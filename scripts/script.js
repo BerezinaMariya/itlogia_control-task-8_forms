@@ -99,5 +99,6 @@ window.onload = function () {
     };
 
     console.log("one more message for control-task-13");
+    console.log("Message for 13 point of control-task-13");
 
 }
